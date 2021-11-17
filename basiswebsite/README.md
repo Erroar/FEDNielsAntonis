@@ -40,11 +40,17 @@ https://animal-crossing.com/ Mijn favoriete game van de afgelopen paar jaren, in
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
-
+ 
+<img src="images/HomeAC.jpg" width="375px" alt="Homepage Animal Crossing">
+<img src="images/HomeAC2.jpg" width="375px" alt="Homepage Animal Crossing">
+<img src="images/HomeAC3.jpg" width="375px" alt="Homepage Animal Crossing">
+ 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Newspage
+ 
+<img src="images/NewAC.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
+<img src="images/NewAC2.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
+<img src="images/NewAC3.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
  
 </details>
 
