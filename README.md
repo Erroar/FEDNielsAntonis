@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Niels Antonis
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Rood
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Surface, maar als het me lukt wil ik ook responsive doen.
  
 </details>
 
@@ -36,15 +36,21 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://animal-crossing.com/ Mijn favoriete game van de afgelopen paar jaren, interactieve website waar ik mezelf mee hoop uit te dagen.
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
-
+Homepage
+ 
+<img src="images/HomeAC.jpg" width="375px" alt="Homepage Animal Crossing">
+<img src="images/HomeAC2.jpg" width="375px" alt="Homepage Animal Crossing">
+<img src="images/HomeAC3.jpg" width="375px" alt="Homepage Animal Crossing">
+ 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Newspage
+ 
+<img src="images/NewAC.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
+<img src="images/NewAC2.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
+<img src="images/NewAC3.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
  
 </details>
 
