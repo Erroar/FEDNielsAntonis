@@ -41,16 +41,16 @@ https://animal-crossing.com/ Mijn favoriete game van de afgelopen paar jaren, in
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
  
-<img src="images/HomeAC.jpg" width="375px" alt="Homepage Animal Crossing">
-<img src="images/HomeAC2.jpg" width="375px" alt="Homepage Animal Crossing">
-<img src="images/HomeAC3.jpg" width="375px" alt="Homepage Animal Crossing">
+<img src="Images/HomeAC.jpg" width="375px" alt="Homepage Animal Crossing">
+<img src="Images/HomeAC2.jpg" width="375px" alt="Homepage Animal Crossing">
+<img src="Images/HomeAC3.jpg" width="375px" alt="Homepage Animal Crossing">
  
 #### Screenshot(s) van de tweede pagina (small screen):
 Newspage
  
-<img src="images/NewAC.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
-<img src="images/NewAC2.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
-<img src="images/NewAC3.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
+<img src="Images/NewAC.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
+<img src="Images/NewAC2.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
+<img src="Images/NewAC3.jpg" width="375px" alt="Nieuwpagina Animal Crossing">
  
 </details>
 
@@ -217,11 +217,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het is niet goed gegaan op het einde. Ik heb het idee dat ik alle elementen wel snap, maar dat de website die ik heb gekozen iets te ambitieus was voor mijn huidige situatie. Ik voelde me uiteindelijk overdonderd door alle losse elementen die verschillende stijlingen nodig hebben. Ik heb mijn uiterste best gedaan om zoveel mogelijk nog af te maken, zodat ik morgen nog wel feedback kan krijgen en voor de herkansing beter resultaat kan leveren.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="Images/WebsiteHomeZelf.png" width="375px" alt="Homepage Animal Crossing">
+<img src="Images/WebsiteMenuOpenZelf.png" width="375px" alt="Homepage Animal Crossing">
+<img src="Images/WebsiteBDZelf.png" width="375px" alt="Homepage Animal Crossing">
 
 </details>
 
