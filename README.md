@@ -224,6 +224,7 @@ Het is niet goed gegaan op het einde. Ik heb het idee dat ik alle elementen wel 
 <img src="Images/WebsiteHomeZelf.png" width="375px" alt="Homepage Animal Crossing">
 <img src="Images/WebsiteMenuOpenZelf.png" width="375px" alt="Homepage Animal Crossing">
 <img src="Images/WebsiteBDZelf.png" width="375px" alt="Homepage Animal Crossing">
+<img src="Images/WebsiteNewsZelf.png" width="375px" alt="Homepage Animal Crossing">
 
 </details>
 
@@ -238,8 +239,6 @@ Het is niet goed gegaan op het einde. Ik heb het idee dat ik alle elementen wel 
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://meyerweb.com/eric/tools/css/reset/
 
 </details>
