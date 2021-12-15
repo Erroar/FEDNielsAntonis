@@ -82,7 +82,7 @@ Newspage
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had moeite met bepaalde zaken goed te ordenen in html, wanneer gebruik ik namelijk een article of een section en wanneer zou ik een divje mogen gebruiken? Verder heb ik de structuur van mijn HTML bijna compleet en kan ik als het goed is beginnen met de eerste stappen in het CSSen van mijn pagina en alles op de juiste plek positioneren.
 
 
 ### Agenda voor meeting
@@ -90,18 +90,17 @@ samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Maken van figuren in CSS  | en dit             | en ik dit    | en dan ik dat    |
+| Het vinden van achtergrondafbeeldingen | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik heb veel DIVjes gebruikt die ik moet aanpassen naar sections
+- Beter bijhouden van de GITHUB
+- Verder zag mijn HTML er prima uit en kan ik door met het structuren van mijn pagina in CSS
+
 
 </details>
 
@@ -115,7 +114,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb de eerste section van mijn pagina goed kunnen vormgeven met css en alles op de juiste plek gekregen voor een mobiel scherm, ik heb echter moeite met het vinden van achtergrond afbleedingen van de pagina. De html structuur van Nintendo is een beetje rommelig waardoor sommige afbeeldingen voor mij onvindbaar zijn. Daarnaast wil ik een zandloper figuurtje maken in css, maar dat lukt me nog niet zo heel lekker.
 
 
 ### Agenda voor meeting
@@ -131,8 +130,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- Ik heb hulp gekregen bij het zoeken van achtergrondafbeeldingen en kan ze nu zelf vinden in de html structuur van mijn pagina.
+- Geleerd om 
 - nog een punt
 - ...
 
