@@ -1,0 +1,423 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Mijn code */
+
+header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header nav img {
+    width: 5.5em;
+    height: 2em;
+}
+
+header nav button:first-of-type {
+    background-color: rgb(235, 5, 5);
+    width: 7em;
+    height: 4em;
+}
+
+header nav button {
+    position: relative;
+
+    width: 4em;
+    height: 4em;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+header button span {
+    display: block;
+    width: 50%;
+    height: 0.3em;
+    background-color: black;
+
+    position: absolute;
+    transition: .3s;
+}
+
+header button span:nth-child(1){
+    transform: translateY(-7px);
+}
+
+header button span:nth-child(3){
+    transform: translateY(7px);
+}
+
+header nav.menuOpen {
+    position: fixed;
+    z-index: 10;
+}
+
+header nav.menuOpen button span {
+    height: 5px;
+}
+
+header nav.menuOpen button span:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+header nav.menuOpen button span:nth-child(2) {
+    opacity: 0;
+}
+
+header nav.menuOpen button span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+body p  {
+    font-family: 'Arvo', serif;
+    line-height: 1.5em;
+}
+
+
+header nav {
+    display: flex;
+    position: relative;
+}
+
+header button:nth-of-type(1) {
+    background-color: #FFE46A;
+    border: none;
+    width: 100%;
+    height: 2.4em;
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+    color: #834B16;
+}
+
+header nav:nth-of-type(2) {
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(0, 0, 0, 0.85);
+    width: 100vw;
+    top: 3.35em;
+    transition: .3s;
+    width: 100vw;
+    transform: translateX(100vw);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header nav:nth-of-type(2) ul {
+    background-color: rgb(240, 240, 240);
+    width: 75vw;
+    height: 667px;
+}
+
+header ul li:nth-of-type(7) {
+    border-top: 2px solid black;
+    padding-top: 1em;
+}
+
+header ul {
+    font-family: 'Lato', sans-serif;
+    font-weight: 350;
+    padding: 1em;
+}
+
+header ul li {
+    margin: 2em;
+}
+
+
+header nav:nth-of-type(2).menOpen {
+    transform: translateX(0vw);
+}
+
+section:first-of-type {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 667px;
+    background-image: url(/Images/hero-bg-desktop.jpg);
+    background-position: center;
+}
+
+
+main.plekje {
+    position: relative;
+    top: 3.3em;
+}
+
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+
+    position: absolute;
+    color: #834B16;
+    top: 30px;
+    left: calc(50% - 87.5px);
+}
+
+section:first-of-type img:first-of-type {
+    position: absolute;
+    left: calc(50% - 87.5px);
+    width: 175px;  
+    top: 70px;
+}
+
+section:first-of-type img:nth-of-type(2) {
+    position: absolute;
+    left: calc(50% - 87.5px);
+    width: 175px;  
+    top: 200px;
+}
+
+section:first-of-type p {
+    top: 430px;
+    
+    width: 280px;
+    font-size: .95em;
+    padding: 70px 70px 110px;
+    text-align: center;
+    
+    background-image: url(/Images/sign_2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 360px;
+    position: absolute;
+    left: calc(50% - 210px);
+    color: white;
+}
+
+section:nth-of-type(2) {
+    position: relative;
+    width: 100%;
+    padding-bottom: 160px;
+    background-image: url(/Images/birthday-red_2x.jpg);
+    height: 10em;
+
+    display:flex;
+	justify-content:center;   
+}
+
+section:nth-of-type(2) div {
+    display: block;
+	width: 90%;
+    height: calc(100% + 11em);
+    background-color: rgb(226, 4, 4);
+
+    display:flex;
+	justify-content:center; 
+	
+	margin:-0.5em 0;
+	
+	clip-path:polygon(
+		0% 0%,
+		100% 0%,
+		95% 50%,
+		100% 100%, 
+		0% 100%, 
+		5% 50%,
+		0% 0%
+	);
+
+    
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-size: 1.75em;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section:nth-of-type(2) h2 {
+    padding-top: 1.7em;
+    font-weight: 600;
+    font-size: 1em;
+    color: #FFE46A;
+    text-shadow: 0em 0.1em rgb(0, 0, 0);
+
+}
+
+section:nth-of-type(2) p {
+    font-size: 1.6em;
+    text-align: center;
+    position: absolute;
+    top: 1.5em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 0em 0.1em rgb(0, 0, 0);
+}
+
+section:nth-of-type(2) img {
+    position: absolute;
+    left: calc(50% - 87.5px);
+    width: 175px;  
+    top: 8.5em;
+}
+
+section:nth-of-type(2) nav {
+    position: absolute;
+    top: 5em;
+    left: calc(50% - 2.7em); 
+}
+
+section:nth-of-type(3) h2 {
+    padding-top: 2.2em;
+    color: #834B16;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+section:nth-of-type(3) {
+    padding-bottom: 3em;
+    background-image: linear-gradient(
+    -180deg, #fbbb37 0%, #fdd119 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-of-type(3) div {
+    background-image: url(/Images/triangles-yellow.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 0em 1em 1em 1em;
+    margin: 1em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0px 5px 10px -4px rgb(0, 0, 0);
+}
+
+article img {
+    padding: 0em 1em 1em;
+    width: 90%;
+}
+
+article h3 {
+    color: #834B16;
+    padding: 1em 0em 1em;
+    font-family: 'Arvo', serif;
+    line-height: 1.4em;
+    font-size: 1em;
+    font-weight: bold;    
+}
+
+article p {
+    padding: 1.5em 1em 0em;
+    color: #36AFB6;
+    order: -1;
+    font-weight: bold;
+}
+
+article a {
+    padding-bottom: 1em;
+    color: #C4161C;
+    font-weight: bold;
+    font-family: 'Arvo', serif;
+}
+
+main button {
+    background-color: #C4161C;
+    border-radius: 1em;
+    height: 2.875em;
+    width: 2.875em;
+    border: none;
+    color: #fbbb37;
+    box-shadow: 0 3px 2px rgb(0 0 0 / 30%);
+}
+
+section:nth-of-type(3) button {
+    width: 15em;
+    font-weight: bold;
+    color: #FFE46A;
+    margin: 2em;
+}
+
+section:nth-of-type(4) {
+    background-color: lightskyblue;
+    background-image: url(/Images/apple-border-top_2x.png);
+    background-repeat: no-repeat;
+    background-size: 667px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-of-type(4) h2 {
+    color: #834b16;
+    font-size: 1.75em;
+    margin-top: 3em;
+    font-weight: 600;
+}
+
+section:nth-of-type(4) ul {
+    background-color: white;
+    width: 90%;
+    margin-top: 2em;
+}
+
+section:nth-of-type(4) img {
+    width: 80%;
+}
+
